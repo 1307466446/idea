@@ -17,6 +17,10 @@ object Test_partitioner {
     value.mapPartitionsWithIndex((i, list) => list.map((i, _))).collect().foreach(println)
 
     println("1111111")
+    println("scala真好")
+    println("scala真1")
+    println("scala真2")
+    println("scala真3")
 
     //4.关闭连接
     sc.stop()
