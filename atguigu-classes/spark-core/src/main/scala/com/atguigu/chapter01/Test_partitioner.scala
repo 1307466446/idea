@@ -17,6 +17,8 @@ object Test_partitioner {
     value.mapPartitionsWithIndex((i, list) => list.map((i, _))).collect().foreach(println)
 
     println("1111111")
+    println("大家好")
+    println("我是渣渣辉")
 
     //4.关闭连接
     sc.stop()
